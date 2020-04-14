@@ -38,7 +38,7 @@ declare global {
   }
 }
 
-// Export a service that defines route handlers and client options
+// Export a service that defines route handlers and client options.
 export default new Service<Clients, State>({
   clients,
   routes: {
