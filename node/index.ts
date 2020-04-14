@@ -42,7 +42,7 @@ declare global {
 export default new Service<Clients, State>({
   clients,
   routes: {
-    // `status` is the route ID from service.json. It maps to an array of middlewares (or a single handler).
+    // `status` is  the route ID from service.json. It maps to an array of middlewares (or a single handler).
     status: [
       method,
       validate,
